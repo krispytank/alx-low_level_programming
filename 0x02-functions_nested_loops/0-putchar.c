@@ -1,13 +1,16 @@
-#include <main.h>
+#include "main.h"
+
 /**
- *  * main - print _putchar
- *   * is written by mbah
- *    * Return: 0
- *     */
+ * -putchar -prints charcters to the standard output
+ *
+ *  Return -on succes it returns character to be printed
+ *
+ *  main - entry point to the program
+ *
+ */
 
 int main(void)
-{
-	_putchar('_');
+{  	_putchar('_');
 	_putchar('p');
 	_putchar('u');
 	_putchar('t');
@@ -16,5 +19,6 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
+
 	return (0);
 }
